@@ -21,3 +21,8 @@ variable "chart" {
   type        = string
 }
 
+variable "wait" {
+  description = "Please specify a if you want wait or not"
+  type        = bool
+  default     = false
+}
