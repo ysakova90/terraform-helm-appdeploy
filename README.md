@@ -29,3 +29,9 @@ module name{
     repository = "https://charts.bitnami.com/bitnami"
     chart      = "nginx-ingress-controller" 
 }
+```
+ #Run
+ ```
+ terraform init
+ terraform apply
+ ```
