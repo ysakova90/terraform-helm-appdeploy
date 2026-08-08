@@ -23,7 +23,7 @@ provider "helm" {
 
 ### Add below code to your main.tf
 ```
-module name{
+module name {
     source = "ysakova90/appdeploy/helm"
     name = "nginx-ingress-controller"
     repository = "https://charts.bitnami.com/bitnami"
